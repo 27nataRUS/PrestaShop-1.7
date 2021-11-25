@@ -1,3 +1,4 @@
+/* Dropdown cart in the header */
 #header .header-nav .cart-preview.active {
     background: #333;
 }
@@ -38,4 +39,27 @@ margin: 0 0.5rem;
 #header .header-nav .cart-preview .shipping, #header .header-nav .cart-preview .tax {display:none;}
 .small-img-cart {
     width: 40px;
+}
+
+/* Add a short description and the product features in the category list items */
+.dropdown-menu.dropdown-catalog {
+    font-size: .75rem;
+	padding: 0.3rem 0.5rem;
+	background-color: #cc8e91;
+    border: 1px solid #cc8e91;
+	color: #000;
+}
+
+.box-product .card-footer .dropdown, .box-product .card-footer .dropend, .box-product .card-footer .dropstart, .box-product .card-footer .dropup {
+    position: relative;
+}
+.dropdown-menu.dropdown-catalog p, .dropdown-menu.dropdown-catalog label {
+    margin-bottom: 0.3rem;
+}
+.dropdown-menu.dropdown-catalog .product-features {
+    margin-top: 0;
+    margin-left: 0;
+}
+.dropdown-menu.dropdown-catalog .product-features div p {
+    margin-bottom: 0.5rem;
 }
